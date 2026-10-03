@@ -33,6 +33,8 @@ git push -u origin main
 
 Then sign in to [Streamlit Community Cloud](https://share.streamlit.io/), create an app from that repository, select the `main` branch, and set the app file to `app.py`.
 
+The repository-root `requirements.txt` installs the same dependencies for Streamlit Community Cloud, whose configured entry point is the root launcher.
+
 The `.gitignore` rules keep the local image dataset and generated feature cache out of Git, while including the small `.cache/flower_classifier_resnet50.joblib` export when it exists. That export avoids fitting the fallback classifier during deployment. The app downloads ResNet50 weights on first classification; dataset examples can be downloaded from inside the app. If the classifier export is absent, first use also downloads the dataset and extracts features on CPU, which can take several minutes.
 
 ## Fast predictions and first start
