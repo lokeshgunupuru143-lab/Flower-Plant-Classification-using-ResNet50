@@ -1,0 +1,6 @@
+.cache/*
+!.cache/flower_classifier_resnet50.joblib
+data/flower_photos/
+data/flower_photos.tgz
+__pycache__/
+*.py[cod]
