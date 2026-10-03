@@ -1,7 +1,8 @@
 __pycache__/
 *.py[cod]
 
-Flower Plant classification using DenseNet121/.cache/*
-!Flower Plant classification using DenseNet121/.cache/flower_classifier_resnet50.joblib
-Flower Plant classification using DenseNet121/data/flower_photos/
-Flower Plant classification using DenseNet121/data/flower_photos.tgz
+Flower Plant classification using ResNet50/.cache/*
+!Flower Plant classification using ResNet50/.cache/flower_classifier_resnet50.joblib
+Flower Plant classification using ResNet50/data/flower_photos/
+Flower Plant classification using ResNet50/data/flower_photos.tgz
+Flower Plant classification using ResNet50/python

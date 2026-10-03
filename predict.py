@@ -4,7 +4,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-target = Path(__file__).resolve().parent / "Flower Plant classification using DenseNet121" / "predict.py"
+target = Path(__file__).resolve().parent / "Flower Plant classification using ResNet50" / "predict.py"
 if not target.is_file():
     print(f"Target script not found: {target}")
     sys.exit(1)

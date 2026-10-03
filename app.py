@@ -3,7 +3,7 @@ import runpy
 import sys
 from pathlib import Path
 
-target = Path(__file__).resolve().parent / "Flower Plant classification using DenseNet121" / "app.py"
+target = Path(__file__).resolve().parent / "Flower Plant classification using ResNet50" / "app.py"
 if not target.is_file():
     raise FileNotFoundError(f"Cannot find main app at {target}")
 
